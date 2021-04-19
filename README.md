@@ -21,3 +21,6 @@ For example, <img src="https://render.githubusercontent.com/render/math?math=Q_{
 
 ### Goal:
 The goal of this project is to design a sufficient statistic based algorithm to find the optimal stratgies of the players for infinite horizon game.
+
+### Solution (Receding horizon method)
+In primal game the sufficient statistics are not fully accessible to the player. Thats why dual game is introduced where the belief and inital vector payoff are fully accessible to the player. But directly using the LP of dual game for infinite horzion game is not possible. Thats why we use receding horizon method to find the optimal strategy of the players. In this method we find the optimal strategy for one window and take action for the 1st stage of that window. Then move the window 1 step ahead and repeat the process.
