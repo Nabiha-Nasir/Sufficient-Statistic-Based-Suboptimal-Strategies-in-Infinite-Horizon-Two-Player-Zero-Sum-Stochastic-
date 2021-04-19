@@ -18,3 +18,6 @@ For example, <img src="https://render.githubusercontent.com/render/math?math=P_{
 <img src="https://user-images.githubusercontent.com/62413691/114936045-ec393b00-9e09-11eb-8f57-352707afa88f.png" width="200" height="100">
 
 For example, <img src="https://render.githubusercontent.com/render/math?math=Q_{a=1,b=1}(l_{t-1}=2,l_t=2)=0.5">.
+
+### Goal:
+The goal of this project is to design a sufficient statistic based algorithm to find the optimal stratgies of the players for infinite horizon game.
